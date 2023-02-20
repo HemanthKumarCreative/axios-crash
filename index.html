@@ -10,14 +10,23 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Axios Crash Course</title>
+    <title>Ecart Seller</title>
   </head>
   <body>
     <div class="container my-5">
       <div class="text-center">
-        <h1 class="display-4 text-center mb-3">Axios Crash Course</h1>
-        <button class="btn btn-primary my-3" id="get">GET</button>
-        <button class="btn btn-info" id="post">POST</button>
+        <h1 class="display-4 text-center mb-3">Ecommerce Admin</h1>
+        <hr />
+        <form action="#" id="myForm">
+          <label for="name">Product Name</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="price">Selling Price</label><br>
+          <input type="number" id="price" name="price"><br>
+          
+          <input id="post" class="btn btn-primary my-3" type="submit" value="Add Product">
+        </form>
+        <!-- <button class="btn btn-primary my-3" id="get">GET</button> -->
+        <!-- <button class="btn btn-info" id="post">POST</button>
         <button class="btn btn-warning" id="update">PUT/PATCH</button>
         <button class="btn btn-danger" id="delete">DELETE</button>
         <button class="btn btn-secondary" id="sim">Sim Requests</button>
@@ -32,7 +41,7 @@
         </button>
         <button class="btn btn-secondary" id="cancel">
           Cancel
-        </button>
+        </button> -->
       </div>
       <hr />
       <div id="res"></div>
